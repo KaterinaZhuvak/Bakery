@@ -54,33 +54,34 @@ img {
 .quality-item {
   display: flex;
   align-items: center;
-  justify-content: start;
-  margin: 0 50px;
+  align-self: start;
+  flex-direction: column;
 }
 .quality-item:nth-child(2) {
-  justify-content: center;
+  align-self: center;
 }
 .quality-item:nth-child(3) {
-  justify-content: end;
+  align-self: end;
 }
-/* .quality-cards {
+.quality-cards {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: ;
-} */
+  padding: 100px;
+  background-image: url(../../img/q-bacground.png);
+}
+
 .quality-img {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 355px;
+  max-height: 323px;
 }
 .q-img {
   width: 100%;
-}
-.quality-cards {
-  padding: 100px;
-  background-image: url(../../img/q-background.png);
+  height: 100%;
+  object-fit: contain;
 }
 .container {
   width: 1440px;

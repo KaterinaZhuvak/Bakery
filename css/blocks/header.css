@@ -108,30 +108,23 @@ img {
 }
 
 .card-text h3 {
-  margin-right: 19px;
-  margin-bottom: 13px;
+  color: #fff;
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
 }
 .card-text p {
-  margin-right: 30px;
   width: 130px;
+  color: #fff;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.card-text h3:nth-child(2) {
-  margin-right: 10px;
-}
-.card-text p:nth-child(2) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card-text h3:nth-child(3) {
-  margin-right: 20px;
-  margin-bottom: 13px;
-}
-.card-text p:nth-child(3) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 /* .h_item h3 {
   display: flex;
   align-items: center;

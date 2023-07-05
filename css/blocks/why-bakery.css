@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.why-bakery {
+  background-image: url(../../img/why_bacground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.why-overlay {
+  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%);
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.why-title {
+  color: #d9d9d9;
+  font-size: 48px;
+  font-family: Italiana;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 55px;
+  padding-left: 165px;
+}
+.why-p {
+  color: #fff;
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
