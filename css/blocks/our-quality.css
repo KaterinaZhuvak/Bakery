@@ -82,3 +82,7 @@ img {
   padding: 100px;
   background-image: url(../../img/q-background.png);
 }
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
