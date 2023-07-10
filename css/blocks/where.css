@@ -1,0 +1,89 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.where {
+  background-color: #202023;
+}
+.where-title {
+  color: #fff;
+  font-size: 48px;
+  font-family: Italiana;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 66px;
+  padding-bottom: 44px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  margin-left: 161px;
+}
+.map {
+  margin-bottom: 50px;
+}
+.where-item {
+  display: block;
+  margin: 0 90px;
+}
+.where-item:nth-child(2) {
+  margin-top: -180px;
+}
+.where-list {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: row;
+  margin-top: -600px;
+}
+.item-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+.tel-number {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+  margin-bottom: 59px;
+}
+.ul-item {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.where-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 90px;
+}

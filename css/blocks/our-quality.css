@@ -56,19 +56,22 @@ img {
   align-items: center;
   align-self: start;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 .quality-item:nth-child(2) {
   align-self: center;
 }
 .quality-item:nth-child(3) {
   align-self: end;
+  margin-top: 123px;
 }
 .quality-cards {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 100px;
+  height: 600px;
   background-image: url(../../img/q-bacground.png);
+  padding-bottom: 45px;
 }
 
 .quality-img {

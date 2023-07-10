@@ -73,9 +73,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 873px;
+  width: 900px;
   flex-wrap: wrap;
   margin: 0 auto;
+  margin-top: 20px;
+  gap: 10px;
 }
 .menu-card-title {
   display: flex;
