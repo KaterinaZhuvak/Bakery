@@ -37,13 +37,7 @@ img {
 .map {
   margin-bottom: 50px;
 }
-.where-item {
-  display: block;
-  margin: 0 90px;
-}
-.where-item:nth-child(2) {
-  margin-top: -180px;
-}
+
 .where-list {
   display: flex;
   align-items: center;
@@ -85,5 +79,8 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0 90px;
+  margin: 0 75px;
+}
+.where-item:nth-child(2) {
+  margin-top: -170px;
 }
